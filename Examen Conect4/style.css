@@ -1,0 +1,29 @@
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height:251px;
+    width: 294px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.jugador1 {
+    background-color: #FF5B38;
+    border-radius: 10px;
+}
+
+.jugador2 {
+    background-color: #38FF4F;
+    border-radius: 10px;
+}
+
+.grid .taken{
+    border: 1px solid white;
+}
